@@ -16,8 +16,8 @@ Primarily created for the adhd of my friend, designed to provide a relaxing visu
 - **Audio Integration**: Includes background audio (`letgo.mp3`) to accompany the visual montage.
 - **Cleaning Functionality**: Optional function to clean up workspace directories after execution.
 
-##  Video
-
+## Example Output
+A sample output video (`brainrot-data.mp4`) is created in the `cooked` directory.
 
 https://github.com/user-attachments/assets/629f4570-bff9-48e9-a254-618597c56da2
 
@@ -42,9 +42,6 @@ https://github.com/user-attachments/assets/629f4570-bff9-48e9-a254-618597c56da2
 
 ## Clean Workspace
 To automatically clean generated files (`cooked`, `cropped_images`, `downloaded_images`), add `clean()` to the `START()` function.
-
-## Example Output
-A sample output video (`brainrot-data.mp4`) is created in the `cooked` directory.
 
 ## Credits
 - Developed by **kolino**.
