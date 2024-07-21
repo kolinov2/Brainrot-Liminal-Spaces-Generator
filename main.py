@@ -51,7 +51,7 @@ def reddit():
 
         for subreddit in subreddits:
             subreddit_instance = reddit.subreddit(subreddit)
-            for submission in subreddit_instance.top(limit=100):  # Pobieramy top 100 postów z danego subreddit
+            for submission in subreddit_instance.hot(limit=100):  # Pobieramy top 100 postów z danego subreddit
                 if submission.url.endswith(('.jpg', '.jpeg', '.png')):
                     all_images.append(submission.url)
 
